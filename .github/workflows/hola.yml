@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Saludar
-        run: echo "Hola desde GitHub Actions"
+      - name: Saludar desde el Repositorio LuYahuita
+        run: echo "Hola desde GitHub Actions, proyecto de cloud"
       - name: Consultar versión
         run: node --version
